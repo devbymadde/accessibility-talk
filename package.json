@@ -1,0 +1,22 @@
+{
+  "name": "accessibility-talk",
+  "version": "1.0.0",
+  "description": "Demo for the talk \"Five quick wins to make your website more accessible\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbymadde/accessibility-talk.git"
+  },
+  "author": "Madeleine Schönemann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devbymadde/accessibility-talk/issues"
+  },
+  "homepage": "https://github.com/devbymadde/accessibility-talk#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
