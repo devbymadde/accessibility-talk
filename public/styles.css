@@ -38,8 +38,7 @@ input {
 }
 
 input:focus {
-  outline: 2px solid #a537fd;
-  border-radius: 5px;
+  outline: none;
 }
 
 input[type='submit'] {
@@ -68,4 +67,12 @@ input[type='radio'] {
 
 .pristine-error {
   font-size: 12px;
+}
+
+.error input {
+  border: 2px solid red;
+}
+
+.success input {
+  border: 2px solid green;
 }

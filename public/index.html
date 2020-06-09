@@ -4,45 +4,44 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="pristine.min.js"></script>
     <script src="script.js"></script>
-    <title>Five quick wins to make your website more accessible</title>
   </head>
   <body>
     <form id="form">
       <div class="input">
-        <label for="firstName">First name</label>
-        <input type="text" id="firstName" required />
+        First name
+        <input type="text" id="firstName" required minlength="4" />
       </div>
 
       <div class="input">
-        <label for="lastName">Last name</label>
+        Last name
         <input type="text" id="lastName" required />
       </div>
 
       <div class="input">
-        <label for="email">Email</label>
+        Email
         <input type="email" id="email" />
       </div>
 
       <div class="input">
-        <label for="password">Password</label>
+        Password
         <input type="password" id="password" required />
       </div>
 
       Please select your spirit animal
 
       <div class="images">
-        <div>
-          <img src="images/1.png" alt="A green chameleon sitting on a twig" />
-        </div>
-        <img src="images/2.png" alt="A pug sitting on a bench" />
-        <img src="images/3.png" alt="A family of emperor penguins in front of the sea" />
+        <img src="images/1.png" />
+        <img src="images/2.png" />
+        <img src="images/3.png" />
       </div>
 
-      <label for="chameleon"><input type="radio" name="animal" id="chameleon" /> Chameleon</label>
+      
+      <input type="radio" name="animal" id="chameleon" />Chameleon
+      
+      <input type="radio" name="animal" id="pug" />Pug
+      
+      <input type="radio" name="animal" id="penguin" />Penguin
 
-      <label for="pug"> <input type="radio" name="animal" id="pug" /> Pug</label>
-
-      <label for="penguin"><input type="radio" name="animal" id="penguin" />Penguin</label>
       <input type="submit" value="Register now!" />
     </form>
   </body>
