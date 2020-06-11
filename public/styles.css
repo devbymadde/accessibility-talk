@@ -76,3 +76,7 @@ input[type='radio'] {
 .success input {
   border: 2px solid green;
 }
+
+.pristine-error{
+  display:none;
+}
